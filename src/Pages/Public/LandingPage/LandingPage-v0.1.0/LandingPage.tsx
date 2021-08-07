@@ -2,45 +2,42 @@
  * @initialAuthor Liam Monninger (l-monninger)
  * @contributors
  * Liam Monninger (l-monninger)
- * @purpose Provide a standard component for the introduction activity.
+ * @purpose
  */
 import React, {FC} from 'react';
 import MediaQuery from "react-responsive";
 import {
-    ContributorIntroDesktop
-} from "./ContributorIntroDesktop";
+    LandingPageDesktop
+} from "./LandingPageDesktop";
 import {
-    ContributorIntroLaptop
-} from "./ContributorIntroLaptop";
+    LandingPageLaptop
+} from "./LandingPageLaptop";
 import {
-    ContributorIntroTablet
-} from "./ContributorIntroTablet";
+    LandingPageTablet
+} from "./LandingPageTablet";
 import {
-    ContributorIntroMobile
-} from "./ContributorIntroMobile"
+    LandingPageMobile
+} from "./LandingPageMobile"
 
 
 // Assign different media screens to their respective components.
 // This can be used to avoid redundant dev for components which do not need
 // different versions for each media screens.
-const Desktop = ContributorIntroDesktop;
-const Laptop = ContributorIntroLaptop;
-const Tablet= ContributorIntroTablet;
-const Mobile = ContributorIntroMobile;
+const Desktop = LandingPageDesktop;
+const Laptop = LandingPageLaptop;
+const Tablet= LandingPageTablet;
+const Mobile = LandingPageMobile;
 
 
 /**
- * @description Props expected by the contributor intro.
+ * @description
  */
-export type ContributorIntroProps = {
-    name : string,
-    profilePicUrl: string
-}
+export type LandingPageProps = {}
 
 /**
- * @description FC for contributor intro.
+ * @description 
  */
-export const ContributorIntro : FC<ContributorIntroProps>  = (props) =>{
+export const LandingPage : FC<LandingPageProps>  = (props) =>{
 
     return (
 

@@ -1,0 +1,3 @@
+export {
+    LandingPageLaptop 
+} from "./LandingPageLaptop"

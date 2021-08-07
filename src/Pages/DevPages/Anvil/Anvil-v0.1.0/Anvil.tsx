@@ -42,16 +42,16 @@ export const Anvil : FC<AnvilProps>  = (props) =>{
     return (
 
         <>
-            <MediaQuery minDeviceWidth={1200}>
+            <MediaQuery minWidth={1200}>
                 <Desktop {...props}>{props.children}</Desktop>
             </MediaQuery>   
-            <MediaQuery minDeviceWidth={992} maxDeviceWidth={1199}>
+            <MediaQuery minWidth={992} maxWidth={1199}>
                 <Laptop {...props}>{props.children}</Laptop>
             </MediaQuery>
-            <MediaQuery minDeviceWidth={768} maxDeviceWidth={991}>
+            <MediaQuery minWidth={768} maxWidth={991}>
                 <Tablet {...props}>{props.children}</Tablet>
             </MediaQuery>
-            <MediaQuery maxDeviceWidth={767}>
+            <MediaQuery maxWidth={767}>
                 <Mobile {...props}>{props.children}</Mobile>
             </MediaQuery>
         </>

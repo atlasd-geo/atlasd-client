@@ -1,0 +1,3 @@
+export {
+    LandingPageTablet 
+} from "./LandingPageTablet"

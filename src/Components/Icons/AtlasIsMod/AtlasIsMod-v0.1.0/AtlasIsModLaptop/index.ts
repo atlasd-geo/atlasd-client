@@ -1,0 +1,3 @@
+export {
+    AtlasIsModLaptop 
+} from "./AtlasIsModLaptop"

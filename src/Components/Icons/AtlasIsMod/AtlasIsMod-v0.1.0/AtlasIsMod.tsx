@@ -2,45 +2,42 @@
  * @initialAuthor Liam Monninger (l-monninger)
  * @contributors
  * Liam Monninger (l-monninger)
- * @purpose Provide a standard component for the introduction activity.
+ * @purpose
  */
 import React, {FC} from 'react';
 import MediaQuery from "react-responsive";
 import {
-    ContributorIntroDesktop
-} from "./ContributorIntroDesktop";
+    AtlasIsModDesktop
+} from "./AtlasIsModDesktop";
 import {
-    ContributorIntroLaptop
-} from "./ContributorIntroLaptop";
+    AtlasIsModLaptop
+} from "./AtlasIsModLaptop";
 import {
-    ContributorIntroTablet
-} from "./ContributorIntroTablet";
+    AtlasIsModTablet
+} from "./AtlasIsModTablet";
 import {
-    ContributorIntroMobile
-} from "./ContributorIntroMobile"
+    AtlasIsModMobile
+} from "./AtlasIsModMobile"
 
 
 // Assign different media screens to their respective components.
 // This can be used to avoid redundant dev for components which do not need
 // different versions for each media screens.
-const Desktop = ContributorIntroDesktop;
-const Laptop = ContributorIntroLaptop;
-const Tablet= ContributorIntroTablet;
-const Mobile = ContributorIntroMobile;
+const Desktop = AtlasIsModDesktop;
+const Laptop = AtlasIsModLaptop;
+const Tablet= AtlasIsModTablet;
+const Mobile = AtlasIsModMobile;
 
 
 /**
- * @description Props expected by the contributor intro.
+ * @description
  */
-export type ContributorIntroProps = {
-    name : string,
-    profilePicUrl: string
-}
+export type AtlasIsModProps = {}
 
 /**
- * @description FC for contributor intro.
+ * @description 
  */
-export const ContributorIntro : FC<ContributorIntroProps>  = (props) =>{
+export const AtlasIsMod : FC<AtlasIsModProps>  = (props) =>{
 
     return (
 

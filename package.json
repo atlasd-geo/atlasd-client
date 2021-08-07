@@ -64,6 +64,7 @@
     "@storybook/react": "^6.3.6",
     "@types/react-router-dom": "^5.1.8",
     "@types/react-test-renderer": "^17.0.1",
+    "bootstrap": "^5.1.0",
     "cypress": "^8.2.0",
     "local-cypress": "^1.2.2",
     "react-responsive": "^9.0.0-beta.3",
