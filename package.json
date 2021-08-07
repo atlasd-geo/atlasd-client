@@ -20,10 +20,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll --coverage",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "docs": "npx typedoc src && http-server ./docs",
+    "cypress-ct": "npx cypress open-ct"
   },
   "eslintConfig": {
     "extends": [
@@ -66,9 +68,18 @@
     "@types/react-test-renderer": "^17.0.1",
     "bootstrap": "^5.1.0",
     "cypress": "^8.2.0",
+    "http-server": "^0.12.3",
+    "http2-server": "^1.0.0",
     "local-cypress": "^1.2.2",
     "react-responsive": "^9.0.0-beta.3",
     "react-router-dom": "^5.2.0",
-    "react-test-renderer": "^17.0.2"
+    "react-test-renderer": "^17.0.2",
+    "typedoc": "^0.21.5"
+  },
+  "jest" : {
+    "collectCoverageFrom" : [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.cy.{js,jsx,ts,tsx}"
+    ]
   }
 }
