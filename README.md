@@ -18,7 +18,7 @@ In the project directory, run: `npm run test`
 ### Cypress
 In the project directory, run `npm run cypress-ct`
 
-**Note:** This may overclock your CPU. The only laptop which I've never overclocked with cypress open-ct is the Macbook Air with the M1 chip.
+**Note:** This may overclock your CPU. The only laptop which I've never overclocked with `cypress open-ct` is the Macbook Air with the M1 chip.
 
 ## Docs
 In the project directory, run: `npm run docs`
@@ -28,6 +28,17 @@ At `localhost:8080` you should see something like this:
 
 
 ## Container
+This app is containerized with Docker. If you don't have [Docker](https://docs.docker.com/get-docker/), install it.
+### Build
+In the project directory, run: `npm run container-build`
+### Run
+In the project directory, run: `npm container-run`
+
+At `localhost:3000` you should see the following landing page:
+
+![Screen Shot 2021-08-07 at 7 00 29 PM](https://user-images.githubusercontent.com/79056955/128618339-3444e118-4f35-42cf-8a1c-4c20021179e9.png)
+
+## Quick Start Activity
 
 
 ## Contributing 
