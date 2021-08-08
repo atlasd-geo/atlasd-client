@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Atlasd Client (Main)
+The main web client for Atlasd.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Configuration
+In the project directory, run: `npm install`
 
-## Available Scripts
+## Run
+In the project directory, run: `npm run start`
 
-In the project directory, you can run:
+At `localhost:3000` you should see the following landing page:
 
-### `npm start`
+![Screen Shot 2021-08-07 at 7 00 29 PM](https://user-images.githubusercontent.com/79056955/128618339-3444e118-4f35-42cf-8a1c-4c20021179e9.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Test
+### Jest 
+In the project directory, run: `npm run test`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Cypress
+In the project directory, run `npm run cypress-ct`
 
-### `npm test`
+**Note:** This may overclock your CPU. The only laptop which I've never overclocked with cypress open-ct is the Macbook Air with the M1 chip.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Docs
+In the project directory, run: `npm run docs`
 
-### `npm run build`
+At `localhost:8080` you should see something like this:
+![Screen Shot 2021-08-07 at 7 06 47 PM](https://user-images.githubusercontent.com/79056955/128618416-2188b575-b008-4e08-872c-d8d4b1e5d6ad.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Container
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing 
