@@ -44,3 +44,4 @@ At `localhost:3000` you should see the following landing page:
 See the [Atlasd Web Client Quick Start](https://github.com/atlasd-geo/atlasd/issues/1) issue.
 
 ## Contributing 
+See [Contributing](https://github.com/atlasd-geo/atlasd-client/blob/main/Contributing.md).
