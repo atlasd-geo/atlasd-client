@@ -1,5 +1,7 @@
 # Atlasd Client (Main)
-The main web client for Atlasd.
+This is the main Web Client for Atlasd. It is built using React, written in Typescript. 
+
+We encourage you to get involved even if you aren't familiar with React or web development generally. There will be opportunities to take on small issues and begin to learn.
 
 ## Configuration
 In the project directory, run: `npm install`
