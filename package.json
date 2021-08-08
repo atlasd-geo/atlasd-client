@@ -25,7 +25,9 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "docs": "npx typedoc src && http-server ./docs",
-    "cypress-ct": "npx cypress open-ct"
+    "cypress-ct": "npx cypress open-ct",
+    "container-build" : "docker build . -t atlasd-client",
+    "container-run" : "docker run -p 3000:3000 atlasd-client"
   },
   "eslintConfig": {
     "extends": [
