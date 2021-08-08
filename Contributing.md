@@ -9,6 +9,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 Please review the [TypeScript Style Guide](https://github.com/atlasd-geo/atlasd/blob/main/languages/Typescript/Style%20Guide.md) and the [TypeScript with React Style Guide](https://github.com/atlasd-geo/atlasd/blob/main/languages/Typescript/With%20React/Style%20Guide.md) before submitting any PRs.
 
 ## Pull Request Process
+**The below is not accurate. This is subject to revision.**
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
    build.
@@ -76,7 +77,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+reported by contacting the project team at [l.mak.monninger@gmail.com](mailto:l.mak.monninger@gmail.com). All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
